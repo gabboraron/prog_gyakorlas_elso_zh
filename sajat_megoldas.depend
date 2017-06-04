@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1496581451 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\egyeb.cpp
+	"egyeb.h"
+
+1496581328 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\egyeb.h
+	<iostream>
+	<string>
+
+1496581553 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.cpp
+	"feldolgozas.h"
+
+1496581665 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.h
+	<vector>
+	"tetelek.h"
+	"matrix.h"
+	"egyeb.h"
+
+1496581665 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\tetelek.h
+	<iostream>
+	<string>
+	<vector>
+	"tetelek.h"
+	"matrix.h"
+	"egyeb.h"
+	"feldolgozas.h"
+
+1496581070 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\matrix.h
+	<vector>
+	<string>
+
+1496581688 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"matrix.h"
+	"egyeb.h"
+	"feldolgozas.h"
+
