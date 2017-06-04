@@ -8,6 +8,6 @@
 //FELDOLGOZAS
 //Meghivas: maxKiv(adat_matrix, n, m,)
 //int feldolgozas(std::vector< std::vector<int> >&, const int&, const int&);
-int feldolgozas(std::vector< std::vector<int> >&);
+int feldolgozas(std::vector< std::vector<int> >&, int&);
 
 #endif // FELDOLGOZAS_H_INCLUDED

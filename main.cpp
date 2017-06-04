@@ -15,6 +15,7 @@ int main()
     std::vector<std::vector<int> >v;
     int n;
     int m;
+    int osszeg;
     string filename = " ";
 
     int mod;
@@ -30,7 +31,13 @@ int main()
        }
 
        //FELDOLGOZAS
-        if(mod != 0) {cout<<feldolgozas(v)<<". sorszamu kutya indult a legtobb kategoriabann\n\n";}
+        if(mod != 0)
+        {
+            cout<<" a)\n  "<<feldolgozas(v,osszeg);
+            cout<<". sor osszeg: "<<osszeg<<"\n";
+            cout<<" b)\n  "<<feldolgozas(v,osszeg);
+            cout<<". sor osszeg: "<<osszeg<<"\n";
+        }
 
     }while(mod>0);
 

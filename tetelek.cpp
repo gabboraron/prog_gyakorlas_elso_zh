@@ -2,51 +2,33 @@
 
 using namespace std;
 
-//Meghivas: maxKiv(rendezendo_vector, n, max, ind)
-int maxKiv(const std::vector< std::vector<int> >& v)
+int linker(const std::vector< std::vector<int> >& v, int& osszeg)
 {
-    int n;
-    n = v.size();
-    //m = v[0].size();
-/*
-    cout<<"\n *** \n";
-    cout<<"\nmaxKiv TEST\n"<<
+    bool l = false;
+    int i = 0;
+    int ind;
 
-    cout<<"kategoriak szama:"<<n;
-    cout<<"\nkutyak szama: "<<m;
-
-    cout<<"\n *** \n";*/
-
-    int elsoElem = 1;
-    int maximum = szamlalas(v[0]);;
-    int maxTmp;
-    int ind = 0;
-
-    for(int i=1; i<n; ++i)
+    while((l == false) && (i<v.size()))
     {
-        maxTmp = szamlalas(v[i]);
-        if(maxTmp > maximum)
-        {
-               maximum = maxTmp;
-               ind = i;
-        }
+        l = (osszegzes(v[i], osszeg) > 0);
+        ind = i;
+        i = i+1;
     }
+    //cout<<"\n *** \n osszeg: "<<osszeg<<"\n *** \n";
     return ind;
 }
 
-//SZAMLALAS
-//Meghivas: szamlalas(szamlalando_vector, n, c)
-int szamlalas(const std::vector<int>& w)
+//osszegzes
+int osszegzes(const std::vector<int>& w, int& osszeg)
 {
-    int c = 0;
+    int s = 0;
     int m = w.size();
 
     for(int i = 0; i<m; ++i)
     {
-        if(w[i] != (-1))
-        {
-            ++c;
-        }
+        s = s + w[i];
     }
-    return c;
+    //cout<<"\n *** \n s: "<<s<<"\n *** \n";
+    osszeg = s;
+    return s;
 }
