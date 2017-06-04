@@ -10,12 +10,13 @@
 
 //ALKALMAZOTT TETELEK
 
-//MAXIMUM KIVALASZTAS
-//Meghivas: maxKiv(rendezendo_vector)
-int maxKiv(const std::vector< std::vector<int> >& );
+//KERESES
+int linker(const std::vector< std::vector<int> >& , int&);
 
-//SZAMLALAS
-//Meghivas: szamlalas(szamlalando_vector)
-int szamlalas(const std::vector<int>& );
+//osszegzess
+int osszegzes(const std::vector<int>& ,int&);
+
+//feltminkiv
+int feltminkiv(const std::vector< std::vector<int> >& , int& );
 
 #endif // TETELEK_H_INCLUDED

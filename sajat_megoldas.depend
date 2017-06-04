@@ -6,16 +6,16 @@
 	<iostream>
 	<string>
 
-1496581553 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.cpp
+1496587166 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.cpp
 	"feldolgozas.h"
 
-1496581665 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.h
+1496586303 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\feldolgozas.h
 	<vector>
 	"tetelek.h"
 	"matrix.h"
 	"egyeb.h"
 
-1496581665 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\tetelek.h
+1496588302 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\tetelek.h
 	<iostream>
 	<string>
 	<vector>
@@ -24,15 +24,32 @@
 	"egyeb.h"
 	"feldolgozas.h"
 
-1496581070 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\matrix.h
+1496583336 c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\matrix.h
 	<vector>
 	<string>
 
-1496581688 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\main.cpp
+1496588461 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\main.cpp
 	<iostream>
 	<string>
 	<vector>
 	"matrix.h"
 	"egyeb.h"
 	"feldolgozas.h"
+	"tetelek.h"
+
+1496583219 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\matrix.cpp
+	"matrix.h"
+	"egyeb.h"
+	<vector>
+	<iostream>
+	<string>
+	<sstream>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1496588275 source:c:\users\sándor\documents\programozas\felkeszules_geptermi_elso_zhra\sajat_megoldas\tetelek.cpp
+	"tetelek.h"
 

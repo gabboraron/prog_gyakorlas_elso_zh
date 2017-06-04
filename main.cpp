@@ -4,6 +4,7 @@
 #include "matrix.h"
 #include "egyeb.h" //menu, read_int
 #include "feldolgozas.h" //feldolgozas
+#include "tetelek.h" //b) pont miatt
 
 using namespace std;
 
@@ -15,6 +16,7 @@ int main()
     std::vector<std::vector<int> >v;
     int n;
     int m;
+    int osszeg;
     string filename = " ";
 
     int mod;
@@ -30,7 +32,13 @@ int main()
        }
 
        //FELDOLGOZAS
-        if(mod != 0) {cout<<feldolgozas(v)<<". sorszamu kutya indult a legtobb kategoriabann\n\n";}
+        if(mod != 0)
+        {
+            cout<<" a)  elso olyan sort, amelynek osszege pozitiv:\n  "<<feldolgozas(v,osszeg);
+            cout<<". sor osszege: "<<osszeg<<"\n";
+            cout<<" b)  csupa pozitiv szamot tartalmazo sorok kozul, \n  "<<feltminkiv(v,osszeg);
+            cout<<". sor osszege a legkisebb: "<<osszeg<<"\n";
+        }
 
     }while(mod>0);
 
